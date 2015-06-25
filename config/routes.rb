@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
     
-    root 'pages#home'
-    
-    get 'iamonweb' => 'pages#home'
-    
+     
   get 'pages/about'
 
   get 'pages/home'
